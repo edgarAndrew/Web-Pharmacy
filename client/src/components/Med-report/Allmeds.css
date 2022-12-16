@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vmax;
+}
+.search-box{
+    margin-top: 1vmax;
+    border: solid 2px;
+    border-color: #19ac71;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box > input{
+    width: 40vw;
+    padding: 1vmax 1vmax;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    font-size: 1.2rem;
+    outline: none;
+}
+.search-box > svg{
+    position: relative;
+    margin: 0 1vmax;
+    bottom: 0.5vmax;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vmax;
+    width: 80%;
+}
+.container svg{
+    align-self: flex-end;
+    font-size: 2vmax;
+    transition: all 0.5s;
+    color: rgba(0, 0, 0, 0.445);
+}
+.table > svg{
+    margin-bottom: 1vmax;
+}
+.container svg:hover{
+    color: black;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+@media screen and (max-width:960px){
+    .container  svg {
+        width: 5.5vw;
+        height: 4.5vw;
+    }
+}
+@media screen and (max-width:600px){
+    .container  svg {
+        width: 7vw;
+        height: 8vw;
+    }
+}

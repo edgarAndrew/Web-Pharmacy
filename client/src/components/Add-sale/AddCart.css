@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.cust-details{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.cust-details > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item-details{
+    margin: 2vmax 0;
+    width: 80%;
+}
+.item-details > form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 1.6vmax;
+    gap: 2vmax;
+    align-items: baseline;
+}
+.item-details > form > div{
+    display: flex;
+    flex-direction: row;
+}
+.item-details > form > div > input{
+    margin: 0 1vmax;
+    box-sizing: border-box;
+    padding: 0.5vmax 1vmax;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font:100 1.2rem "Roboto",sans-serif;
+    outline: none;
+}
+.item-details > form > div > select{
+    margin: 0 1vmax;
+    width: 45vh;
+    box-sizing: border-box;
+    padding: 0.5vmax 1vmax;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font:100 1.2rem "Roboto",sans-serif;
+    outline: none;
+}
+.cart-details{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 0.5vmax;
+}
+.cart-details > h4{
+    margin-bottom: 1.5vmax;
+}
+.cart-details > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-details > form > h6{
+    align-self: flex-end;
+    margin-top: 1vmax;
+}
+.cart-details > form > button{
+    margin-top: 1vmax;
+}

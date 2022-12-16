@@ -1,0 +1,6 @@
+/vercel-server
+/server/node_modules
+/server/.env
+/client/node_modules
+/client/build
+*.txt

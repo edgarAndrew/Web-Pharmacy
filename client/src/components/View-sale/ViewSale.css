@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container > h4{
+    margin-bottom: 2vmax;
+}
+.cust-details{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.cust-details > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart-details{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2vmax 0;
+}
+.cart-details > h4{
+    margin-bottom: 1.5vmax;
+}
+.cart-details > h6{
+    align-self: flex-end;
+    margin-top: 1vmax;
+}
+.cart-details > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-details > form > button{
+    margin-top: 1vmax;
+}

@@ -1,0 +1,27 @@
+#actions > svg{
+        width: 2vmax;
+        height: 2vmax;
+        margin: 0 0.5vmax 0 1vmax;
+        font-size: 2vmax;
+        transition: all 0.5s;
+        color: rgba(0, 0, 0, 0.445);
+        cursor: pointer;
+}
+#actions > svg:hover{
+    color: black;
+    transform: scale(1.2);
+}
+@media screen and (max-width:960px){
+    #actions > svg {
+        width: 5vw;
+        height: 4.5vw;
+        margin: 1vw 1vw;
+    }
+  }
+  @media screen and (max-width:600px){
+    #actions > svg {
+        width: 8vw;
+        height: 8vw;
+        margin: 1vw 0vw;
+    }
+  }

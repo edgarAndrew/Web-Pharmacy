@@ -1,0 +1,32 @@
+.add-sale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.add-sale > form{
+    display: flex;
+    flex-direction: column;
+    margin:2vmax ;
+    gap: 2vmax;
+    align-items: center;
+    padding: 2vmax 0;
+    background-color: #ebfaef;
+    border-radius: 10px;
+    width: 70%;
+    height: 77%;
+    box-shadow: 10px 12px 10px gray;
+}
+.add-sale > form > h3 {
+    margin-bottom: 2vmax;
+}
+.add-sale > form > input{
+    margin: 0 2vmax;
+    box-sizing: border-box;
+    padding: 1vmax 2vmax;
+    width: 30vmax;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font:100 1.2rem "Roboto",sans-serif;
+    outline: none;
+}
