@@ -70,7 +70,7 @@ const getCart = async(req,res)=>{
     if(obj.length === 0)
         throw new BadRequestError(`no sale with orderId:${orderId}`)
     
-    connection.query("SELECT * FROM sales,cart WHERE cartId=orderId AND orderId=?",[orderId],
+    connection.query("SELECT * FROM sales INNER JOIN cart on cartId=orderId WHERE orderId=?",[orderId],
         (err,result)=>{
             if(err)
                 res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({err})
